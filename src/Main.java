@@ -8,6 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int a = Integer.parseInt(scanner.nextLine());
         int b = 0;
+        int res = a + b;
 
         for (int i = 1; i <= 5; i++) {
             System.out.println("i = " + i);
